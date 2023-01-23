@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AndersonCardStoryboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anderson Sales" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OfL-SY-h6t">
+                                <rect key="frame" x="25" y="384" width="343" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="rDb-Ro-3uf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS Developer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30v-P1-j0m">
+                                <rect key="frame" x="25" y="424" width="343" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="1EW-xD-kj2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+55 12 99206 4867" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLq-Jr-rNR">
+                                <rect key="frame" x="25" y="514" width="343" height="52"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="EDc-xn-8fh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="aasalesdev@gmail.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nYE-Sg-4fp">
+                                <rect key="frame" x="25" y="591" width="343" height="52"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="P2e-8g-pdK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="anderson" translatesAutoresizingMaskIntoConstraints="NO" id="5Bd-nm-UPn">
+                                <rect key="frame" x="121.66666666666669" y="203" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="7Rl-ap-VAM"/>
+                                    <constraint firstAttribute="height" constant="150" id="d3U-em-24f"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Yvh-A6-b3f">
+                                <rect key="frame" x="59" y="521.66666666666663" width="40" height="37.333333333333371"/>
+                                <color key="tintColor" red="0.2466986836" green="0.62795728449999999" blue="0.20302843910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8iH-d6-Dfu"/>
+                                    <constraint firstAttribute="width" constant="40" id="xKC-EN-lfS"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="envelope.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Smc-9P-2VB">
+                                <rect key="frame" x="59" y="599.33333333333337" width="40" height="35.999999999999886"/>
+                                <color key="tintColor" red="0.2466986836" green="0.62795728449999999" blue="0.20302843910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ab5-xU-SxM"/>
+                                    <constraint firstAttribute="width" constant="40" id="uEB-Az-0xQ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemCyanColor"/>
+                        <constraints>
+                            <constraint firstItem="nYE-Sg-4fp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="1qB-BI-mAO"/>
+                            <constraint firstItem="Smc-9P-2VB" firstAttribute="top" secondItem="nYE-Sg-4fp" secondAttribute="top" constant="6" id="2wL-UU-8eY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nYE-Sg-4fp" secondAttribute="trailing" constant="25" id="4Fs-Zz-Pea"/>
+                            <constraint firstItem="5Bd-nm-UPn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CVt-xJ-kqc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uLq-Jr-rNR" secondAttribute="trailing" constant="25" id="LNH-xD-NDs"/>
+                            <constraint firstItem="5Bd-nm-UPn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-148" id="M9N-d3-Ftg"/>
+                            <constraint firstItem="OfL-SY-h6t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="NCW-k7-wwz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OfL-SY-h6t" secondAttribute="trailing" constant="25" id="SXu-fl-JtK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nYE-Sg-4fp" secondAttribute="bottom" constant="175" id="URD-8D-Dcz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="30v-P1-j0m" secondAttribute="trailing" constant="25" id="Z23-Gf-jTa"/>
+                            <constraint firstItem="30v-P1-j0m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="Z3F-Ea-51f"/>
+                            <constraint firstItem="nYE-Sg-4fp" firstAttribute="top" secondItem="uLq-Jr-rNR" secondAttribute="bottom" constant="25" id="ZIn-PJ-Sbp"/>
+                            <constraint firstItem="uLq-Jr-rNR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="b51-q6-8WA"/>
+                            <constraint firstItem="Yvh-A6-b3f" firstAttribute="leading" secondItem="Smc-9P-2VB" secondAttribute="leading" id="eob-ZQ-nww"/>
+                            <constraint firstItem="Yvh-A6-b3f" firstAttribute="bottom" secondItem="uLq-Jr-rNR" secondAttribute="bottom" constant="-6" id="irQ-5B-NfV"/>
+                            <constraint firstItem="30v-P1-j0m" firstAttribute="top" secondItem="OfL-SY-h6t" secondAttribute="bottom" id="jwa-9y-hmR"/>
+                            <constraint firstItem="uLq-Jr-rNR" firstAttribute="top" secondItem="30v-P1-j0m" secondAttribute="bottom" constant="50" id="qEj-67-Aao"/>
+                            <constraint firstItem="Yvh-A6-b3f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="zyh-Kc-gVT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="andersonImageView" destination="5Bd-nm-UPn" id="e6h-2z-uf8"/>
+                        <outlet property="emailImage" destination="Smc-9P-2VB" id="bMI-75-6xV"/>
+                        <outlet property="emailLabel" destination="nYE-Sg-4fp" id="nXg-Ju-rzW"/>
+                        <outlet property="nameLabel" destination="OfL-SY-h6t" id="1pt-Y4-D8o"/>
+                        <outlet property="phoneImage" destination="Yvh-A6-b3f" id="KlZ-Il-pEe"/>
+                        <outlet property="phoneLabel" destination="uLq-Jr-rNR" id="ofO-2M-5T2"/>
+                        <outlet property="titleLabel" destination="30v-P1-j0m" id="ljl-Jx-ZwO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="anderson" width="118" height="87.333335876464844"/>
+        <image name="envelope.fill" catalog="system" width="128" height="93"/>
+        <image name="phone.fill" catalog="system" width="128" height="114"/>
+        <systemColor name="systemCyanColor">
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
